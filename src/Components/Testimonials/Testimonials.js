@@ -44,7 +44,7 @@ const Testimonials = () => {
                                 <div className="relative">
                                     <div className="mt-[84px] flex gap-5">
                                         <div className="border border-[#B9FF66] rounded-[45px] p-[30px]">
-                                            <p className="text-white text-base font-normal leading-[22.97px]">"{item.disc}"</p>
+                                            <p className="text-white text-base font-normal leading-[22.97px]">{item.disc}</p>
                                         </div>
                                     </div>
                                     <div className="rotate-45 absolute left-[80px] -bottom-5">
