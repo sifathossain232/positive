@@ -6,7 +6,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { SwiperButton } from './../swiperButton/SwiperButton';
+// import { SwiperButton } from './../swiperButton/SwiperButton';
 
 const Testimonials = () => {
 

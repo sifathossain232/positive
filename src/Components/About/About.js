@@ -9,7 +9,7 @@ const About = () => {
                 <p className="text-lg font-normal leading-[22.97px] my-[26px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
                 <button className="bg-black rounded-[14px] w-[288px] h-[68px] text-white text-xl font-normal leading-7 shine">Get your free proposal</button>
             </div>
-            <Image className="lg:flex lg:justify-center lg:items-center lg:-mt-[23.5px] block hidden" src="/Images/About/Illustration (7).png" alt="Loading..." width={359} height={394.27} />
+            <Image className="lg:flex-1 lg:justify-center lg:items-center lg:-mt-[23.5px]  lg:block hidden" src="/Images/About/Illustration (7).png" alt="Loading..." width={359} height={394.27} />
            </div> 
         </div>
     );

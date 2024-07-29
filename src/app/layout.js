@@ -1,5 +1,15 @@
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/Components/Header/Navbar";
+import Banner from "@/Components/Banner/Banner";
+import Services from "@/Components/Services/Services";
+import About from "@/Components/About/About";
+import CaseStudies from "@/Components/CaseStudies/CaseStudies";
+import WorkingProcess from "@/Components/WorkingProcess/WorkingProcess";
+import Team from "@/Components/Team/Team";
+import Testimonials from "@/Components/Testimonials/Testimonials";
+import ContactUs from "@/Components/ContactUs/ContactUs";
+import PositiveusFooter from "@/Components/PositiveusFooter/PositiveusFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +28,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} ${space_grotesk_init.variable}`}>
-        <div>
+        <div className="xl:w-[1240px] w-full mx-auto xl:px-0 px-5">
+        <Navbar />
+      <Banner />
+      <Services />
+      <About />
+      <CaseStudies />
+      <WorkingProcess />
+      <Team />
+      <Testimonials />
+      <ContactUs />
+      <PositiveusFooter />
           {children}
         </div>
       </body>
